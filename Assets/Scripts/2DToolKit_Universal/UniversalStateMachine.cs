@@ -8,6 +8,15 @@ public class UniversalStateMachine : MonoBehaviour
     private string _name;
     private Dictionary<string, State> _stateDictionary;
 
+    private void Awake()
+    {
+        _stateDictionary = new Dictionary<string, State>();
+    }
+
+    public void LogDictionary()
+    {
+        Debug.Log(_stateDictionary);
+    }
 
     public void SetName(string name)
     {
@@ -36,7 +45,7 @@ public class UniversalStateMachine : MonoBehaviour
 
     public virtual void AddState(string stateName)
     {
-        if (!DoesStateExist(stateName))
+        if (!DoesStateExist(stateName) && stateName != "" && stateName != null)
         {
             State newState = new State(stateName);
             _stateDictionary.Add(stateName,newState);
@@ -63,7 +72,7 @@ public class UniversalStateMachine : MonoBehaviour
             return _stateDictionary[stateName].IsStateActive();
         else
         {
-            Debug.LogError("Attempted to request activity of nonexistent State(" + stateName + ") on object: " + gameObject.name);
+            //Debug.LogError("Attempted to request activity of nonexistent State(" + stateName + ") on object: " + gameObject.name);
             return false;
         }
         
@@ -73,7 +82,7 @@ public class UniversalStateMachine : MonoBehaviour
     {
         if (DoesStateExist(stateName))
             _stateDictionary[stateName].SetStateActivity(newValue);
-        else Debug.LogError("Attempted to update activity of nonexistent State(" + stateName + ") on object: " + gameObject.name);
+        //else Debug.LogError("Attempted to update activity of nonexistent State(" + stateName + ") on object: " + gameObject.name);
     }
 
     public virtual List<string> GetAllStateNames()
@@ -135,7 +144,7 @@ public class State
 
     public override int GetHashCode()
     {
-        return 911 * _name.GetHashCode();
+        return _name.GetHashCode() * 2;
     }
 
     public override bool Equals(object obj)

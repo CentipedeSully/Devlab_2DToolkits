@@ -14,9 +14,36 @@ public class StateMachineTestsOnPlay
         UniversalStateMachine uStateMachine = testObject.AddComponent<UniversalStateMachine>();
         uStateMachine.SetName("PlayerStateMachine");
 
-        Debug.Log(uStateMachine);
+        uStateMachine.LogDictionary();
 
         Assert.AreEqual(true, uStateMachine.GetName() == "PlayerStateMachine");
+        yield return null;
+    }
+
+    [UnityTest]
+    public IEnumerator UsmNonexistingStateTest()
+    {
+
+        GameObject testObject = new GameObject();
+        UniversalStateMachine uStateMachine = testObject.AddComponent<UniversalStateMachine>();
+        uStateMachine.SetName("PlayerStateMachine");
+
+
+        Assert.AreEqual(true,uStateMachine.DoesStateExist("isJumping") == false);
+        yield return null;
+    }
+
+
+    [UnityTest]
+    public IEnumerator UsmDoesStateExistTest()
+    {
+
+        GameObject testObject = new GameObject();
+        UniversalStateMachine uStateMachine = testObject.AddComponent<UniversalStateMachine>();
+        uStateMachine.SetName("PlayerStateMachine");
+        uStateMachine.AddState("isJumping");
+
+        Assert.AreEqual(true, uStateMachine.DoesStateExist("isJumping") == true);
         yield return null;
     }
 
