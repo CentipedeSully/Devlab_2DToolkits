@@ -14,16 +14,16 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_PixelRect:
     serializedVersion: 2
-    x: 8
-    y: 51
-    width: 1904
-    height: 981
+    x: 0
+    y: 43
+    width: 1920
+    height: 997
   m_ShowMode: 4
-  m_Title: Hierarchy
+  m_Title: Test Runner
   m_RootView: {fileID: 2}
   m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
-  m_Maximized: 0
+  m_Maximized: 1
 --- !u!114 &2
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -44,8 +44,8 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 1904
-    height: 981
+    width: 1920
+    height: 997
   m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
   m_UseTopView: 1
@@ -69,7 +69,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 1904
+    width: 1920
     height: 30
   m_MinSize: {x: 0, y: 0}
   m_MaxSize: {x: 0, y: 0}
@@ -90,8 +90,8 @@ MonoBehaviour:
   m_Position:
     serializedVersion: 2
     x: 0
-    y: 961
-    width: 1904
+    y: 977
+    width: 1920
     height: 20
   m_MinSize: {x: 0, y: 0}
   m_MaxSize: {x: 0, y: 0}
@@ -115,12 +115,12 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 30
-    width: 1904
-    height: 931
+    width: 1920
+    height: 947
   m_MinSize: {x: 400, y: 200}
   m_MaxSize: {x: 32384, y: 16192}
   vertical: 0
-  controlID: 140
+  controlID: 152
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -140,12 +140,12 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 1229
-    height: 931
+    width: 1236
+    height: 947
   m_MinSize: {x: 200, y: 200}
   m_MaxSize: {x: 16192, y: 16192}
   vertical: 1
-  controlID: 106
+  controlID: 56
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -165,12 +165,12 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 1229
-    height: 587
+    width: 1236
+    height: 646
   m_MinSize: {x: 200, y: 100}
   m_MaxSize: {x: 16192, y: 8096}
   vertical: 0
-  controlID: 107
+  controlID: 57
 --- !u!114 &8
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -188,13 +188,13 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 514
-    height: 587
+    width: 124
+    height: 646
   m_MinSize: {x: 201, y: 221}
   m_MaxSize: {x: 4001, y: 4021}
-  m_ActualView: {fileID: 16}
+  m_ActualView: {fileID: 17}
   m_Panes:
-  - {fileID: 16}
+  - {fileID: 17}
   m_Selected: 0
   m_LastSelected: 0
 --- !u!114 &9
@@ -207,22 +207,23 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: PackageManagerWindow
+  m_Name: TestRunnerWindow
   m_EditorClassIdentifier: 
   m_Children: []
   m_Position:
     serializedVersion: 2
-    x: 514
+    x: 124
     y: 0
-    width: 715
-    height: 587
-  m_MinSize: {x: 802, y: 271}
-  m_MaxSize: {x: 4002, y: 4021}
-  m_ActualView: {fileID: 18}
+    width: 1112
+    height: 646
+  m_MinSize: {x: 100, y: 100}
+  m_MaxSize: {x: 4000, y: 4000}
+  m_ActualView: {fileID: 15}
   m_Panes:
-  - {fileID: 17}
   - {fileID: 18}
-  m_Selected: 1
+  - {fileID: 19}
+  - {fileID: 15}
+  m_Selected: 2
   m_LastSelected: 0
 --- !u!114 &10
 MonoBehaviour:
@@ -242,13 +243,13 @@ MonoBehaviour:
   m_Position:
     serializedVersion: 2
     x: 0
-    y: 587
-    width: 1229
-    height: 344
+    y: 646
+    width: 1236
+    height: 301
   m_MinSize: {x: 200, y: 100}
   m_MaxSize: {x: 16192, y: 8096}
   vertical: 0
-  controlID: 41
+  controlID: 107
 --- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -266,16 +267,16 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 910
-    height: 344
+    width: 915
+    height: 301
   m_MinSize: {x: 101, y: 121}
   m_MaxSize: {x: 4001, y: 4021}
-  m_ActualView: {fileID: 19}
+  m_ActualView: {fileID: 20}
   m_Panes:
-  - {fileID: 15}
-  - {fileID: 19}
+  - {fileID: 16}
+  - {fileID: 20}
   m_Selected: 1
-  m_LastSelected: 0
+  m_LastSelected: 1
 --- !u!114 &12
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -291,15 +292,15 @@ MonoBehaviour:
   m_Children: []
   m_Position:
     serializedVersion: 2
-    x: 910
+    x: 915
     y: 0
-    width: 319
-    height: 344
+    width: 321
+    height: 301
   m_MinSize: {x: 232, y: 271}
   m_MaxSize: {x: 10002, y: 10021}
-  m_ActualView: {fileID: 20}
+  m_ActualView: {fileID: 21}
   m_Panes:
-  - {fileID: 20}
+  - {fileID: 21}
   m_Selected: 0
   m_LastSelected: 0
 --- !u!114 &13
@@ -317,15 +318,15 @@ MonoBehaviour:
   m_Children: []
   m_Position:
     serializedVersion: 2
-    x: 1229
+    x: 1236
     y: 0
-    width: 297
-    height: 931
+    width: 274
+    height: 947
   m_MinSize: {x: 202, y: 221}
   m_MaxSize: {x: 4002, y: 4021}
-  m_ActualView: {fileID: 21}
+  m_ActualView: {fileID: 22}
   m_Panes:
-  - {fileID: 21}
+  - {fileID: 22}
   m_Selected: 0
   m_LastSelected: 0
 --- !u!114 &14
@@ -343,19 +344,553 @@ MonoBehaviour:
   m_Children: []
   m_Position:
     serializedVersion: 2
-    x: 1526
+    x: 1510
     y: 0
-    width: 378
-    height: 931
-  m_MinSize: {x: 276, y: 71}
-  m_MaxSize: {x: 4001, y: 4021}
-  m_ActualView: {fileID: 22}
+    width: 410
+    height: 947
+  m_MinSize: {x: 275, y: 50}
+  m_MaxSize: {x: 4000, y: 4000}
+  m_ActualView: {fileID: 23}
   m_Panes:
-  - {fileID: 22}
   - {fileID: 23}
+  - {fileID: 24}
   m_Selected: 0
   m_LastSelected: 1
 --- !u!114 &15
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 13401, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_MinSize: {x: 100, y: 100}
+  m_MaxSize: {x: 4000, y: 4000}
+  m_TitleContent:
+    m_Text: Test Runner
+    m_Image: {fileID: 0}
+    m_Tooltip: 
+  m_Pos:
+    serializedVersion: 2
+    x: 124
+    y: 73
+    width: 1110
+    height: 625
+  m_ViewDataDictionary: {fileID: 0}
+  m_OverlayCanvas:
+    m_LastAppliedPresetName: Default
+    m_SaveData: []
+  m_Spl:
+    ID: 175
+    splitterInitialOffset: 248
+    currentActiveSplitter: -1
+    realSizes:
+    - 251
+    - 304
+    relativeSizes:
+    - 0.4522613
+    - 0.5477387
+    minSizes:
+    - 32
+    - 32
+    maxSizes:
+    - 0
+    - 0
+    lastTotalSize: 555
+    splitSize: 6
+    xOffset: 0
+    m_Version: 1
+    oldRealSizes: 
+    oldMinSizes: 
+    oldMaxSizes: 
+    oldSplitSize: 0
+  m_TestTypeToolbarIndex: 1
+  m_PlayModeTestListGUI:
+    m_Window: {fileID: 0}
+    m_NewResultList: []
+    m_ResultText: 
+    m_ResultStacktrace: 
+    m_TestListState:
+      scrollPos: {x: 0, y: 0}
+      m_SelectedIDs: 
+      m_LastClickedID: 0
+      m_ExpandedIDs: 
+      m_RenameOverlay:
+        m_UserAcceptedRename: 0
+        m_Name: 
+        m_OriginalName: 
+        m_EditFieldRect:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        m_UserData: 0
+        m_IsWaitingForDelay: 0
+        m_IsRenaming: 0
+        m_OriginalEventType: 11
+        m_IsRenamingFilename: 0
+        m_ClientGUIView: {fileID: 0}
+      m_SearchString: 
+    m_TestRunnerUIFilter:
+      PassedHidden: 0
+      FailedHidden: 0
+      NotRunHidden: 0
+      m_SearchString: 
+      selectedCategoryMask: 0
+      availableCategories: []
+    m_SelectedOption: 0
+  m_EditModeTestListGUI:
+    m_Window: {fileID: 15}
+    m_NewResultList:
+    - id: 1000
+      uniqueId: '[Devlab_2DScriptingToolkits][suite]'
+      name: Devlab_2DScriptingToolkits
+      fullName: Devlab_2DScriptingToolkits
+      resultStatus: 1
+      duration: 0.1283673
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 
+      parentUniqueId: 
+    - id: 1012
+      uniqueId: '[EditMode][C:/Users/Sulli/OneDrive/Desktop/Projects/Devlabs/Devlab_2DToolkits/Library/ScriptAssemblies/EditMode.dll][suite]'
+      name: EditMode.dll
+      fullName: C:/Users/Sulli/OneDrive/Desktop/Projects/Devlabs/Devlab_2DToolkits/Library/ScriptAssemblies/EditMode.dll
+      resultStatus: 1
+      duration: 0.0372622
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 1000
+      parentUniqueId: '[Devlab_2DScriptingToolkits][suite]'
+    - id: 1001
+      uniqueId: EditMode.dll/[EditMode][EqualityTests][suite]
+      name: EqualityTests
+      fullName: EqualityTests
+      resultStatus: 1
+      duration: 0.0355669
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 1023
+      parentUniqueId: '[EditMode][C:/Users/Sulli/OneDrive/Desktop/Projects/Devlabs/Devlab_2DToolkits/Library/ScriptAssemblies/EditMode.dll][suite]'
+    - id: 1006
+      uniqueId: EditMode.dll/EqualityTests/[EditMode][EqualityTests.ReferenceEquailtyTestOnStates]
+      name: ReferenceEquailtyTestOnStates
+      fullName: EqualityTests.ReferenceEquailtyTestOnStates
+      resultStatus: 1
+      duration: 0.0169415
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1001
+      parentUniqueId: EditMode.dll/[EditMode][EqualityTests][suite]
+    - id: 1007
+      uniqueId: EditMode.dll/EqualityTests/[EditMode][EqualityTests.ReferenceNonequailtyTestOnStates]
+      name: ReferenceNonequailtyTestOnStates
+      fullName: EqualityTests.ReferenceNonequailtyTestOnStates
+      resultStatus: 1
+      duration: 0.0002266
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1001
+      parentUniqueId: EditMode.dll/[EditMode][EqualityTests][suite]
+    - id: 1003
+      uniqueId: EditMode.dll/EqualityTests/[EditMode][EqualityTests.ValueEquailtyTestOnInts]
+      name: ValueEquailtyTestOnInts
+      fullName: EqualityTests.ValueEquailtyTestOnInts
+      resultStatus: 1
+      duration: 0.0001455
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1001
+      parentUniqueId: EditMode.dll/[EditMode][EqualityTests][suite]
+    - id: 1005
+      uniqueId: EditMode.dll/EqualityTests/[EditMode][EqualityTests.ValueEquailtyTestOnStrings]
+      name: ValueEquailtyTestOnStrings
+      fullName: EqualityTests.ValueEquailtyTestOnStrings
+      resultStatus: 1
+      duration: 0.0001533
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1001
+      parentUniqueId: EditMode.dll/[EditMode][EqualityTests][suite]
+    - id: 1002
+      uniqueId: EditMode.dll/EqualityTests/[EditMode][EqualityTests.ValueNonequailtyTestOnInts]
+      name: ValueNonequailtyTestOnInts
+      fullName: EqualityTests.ValueNonequailtyTestOnInts
+      resultStatus: 1
+      duration: 0.0001495
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1001
+      parentUniqueId: EditMode.dll/[EditMode][EqualityTests][suite]
+    - id: 1004
+      uniqueId: EditMode.dll/EqualityTests/[EditMode][EqualityTests.ValueNonequailtyTestOnStrings]
+      name: ValueNonequailtyTestOnStrings
+      fullName: EqualityTests.ValueNonequailtyTestOnStrings
+      resultStatus: 1
+      duration: 0.000209
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1001
+      parentUniqueId: EditMode.dll/[EditMode][EqualityTests][suite]
+    - id: 1001
+      uniqueId: EditMode.dll/[EditMode][StateTests][suite]
+      name: StateTests
+      fullName: StateTests
+      resultStatus: 1
+      duration: 0.0504943
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 1012
+      parentUniqueId: '[EditMode][C:/Users/Sulli/OneDrive/Desktop/Projects/Devlabs/Devlab_2DToolkits/Library/ScriptAssemblies/EditMode.dll][suite]'
+    - id: 1002
+      uniqueId: EditMode.dll/StateTests/[EditMode][StateTests.Test_EnablingState]
+      name: Test_EnablingState
+      fullName: StateTests.Test_EnablingState
+      resultStatus: 1
+      duration: 0.0197656
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1001
+      parentUniqueId: EditMode.dll/[EditMode][StateTests][suite]
+    - id: 1007
+      uniqueId: EditMode.dll/StateTests/[EditMode][StateTests.Test_HashEquivalencyTest]
+      name: Test_HashEquivalencyTest
+      fullName: StateTests.Test_HashEquivalencyTest
+      resultStatus: 1
+      duration: 0.0003923
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1001
+      parentUniqueId: EditMode.dll/[EditMode][StateTests][suite]
+    - id: 1007
+      uniqueId: EditMode.dll/StateTests/[EditMode][StateTests.Test_HashNonequivalencyTest]
+      name: Test_HashNonequivalencyTest
+      fullName: StateTests.Test_HashNonequivalencyTest
+      resultStatus: 1
+      duration: 0.0002344
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1001
+      parentUniqueId: EditMode.dll/[EditMode][StateTests][suite]
+    - id: 1008
+      uniqueId: EditMode.dll/StateTests/[EditMode][StateTests.Test_NullEquivalencyTest]
+      name: Test_NullEquivalencyTest
+      fullName: StateTests.Test_NullEquivalencyTest
+      resultStatus: 1
+      duration: 0.0002016
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1001
+      parentUniqueId: EditMode.dll/[EditMode][StateTests][suite]
+    - id: 1005
+      uniqueId: EditMode.dll/StateTests/[EditMode][StateTests.Test_NullNonequivalencyTest]
+      name: Test_NullNonequivalencyTest
+      fullName: StateTests.Test_NullNonequivalencyTest
+      resultStatus: 1
+      duration: 0.0002468
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1001
+      parentUniqueId: EditMode.dll/[EditMode][StateTests][suite]
+    - id: 1009
+      uniqueId: EditMode.dll/StateTests/[EditMode][StateTests.Test_StringHashToStateHashNonequivalencyTest]
+      name: Test_StringHashToStateHashNonequivalencyTest
+      fullName: StateTests.Test_StringHashToStateHashNonequivalencyTest
+      resultStatus: 1
+      duration: 0.0002016
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1001
+      parentUniqueId: EditMode.dll/[EditMode][StateTests][suite]
+    - id: 1004
+      uniqueId: EditMode.dll/StateTests/[EditMode][StateTests.Test_ValueEquivalencyTestUsingDoubleEquals]
+      name: Test_ValueEquivalencyTestUsingDoubleEquals
+      fullName: StateTests.Test_ValueEquivalencyTestUsingDoubleEquals
+      resultStatus: 1
+      duration: 0.0002253
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1001
+      parentUniqueId: EditMode.dll/[EditMode][StateTests][suite]
+    - id: 1003
+      uniqueId: EditMode.dll/StateTests/[EditMode][StateTests.Test_ValueEquivalencyTestUsingObjEquals]
+      name: Test_ValueEquivalencyTestUsingObjEquals
+      fullName: StateTests.Test_ValueEquivalencyTestUsingObjEquals
+      resultStatus: 1
+      duration: 0.0002203
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1001
+      parentUniqueId: EditMode.dll/[EditMode][StateTests][suite]
+    - id: 1006
+      uniqueId: EditMode.dll/StateTests/[EditMode][StateTests.Test_ValueNonequivalencyTestUsingDoubleEquals]
+      name: Test_ValueNonequivalencyTestUsingDoubleEquals
+      fullName: StateTests.Test_ValueNonequivalencyTestUsingDoubleEquals
+      resultStatus: 1
+      duration: 0.0043618
+      messages: 
+      output: 'isJumping
+
+        isNotJumping
+
+'
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1001
+      parentUniqueId: EditMode.dll/[EditMode][StateTests][suite]
+    - id: 1005
+      uniqueId: EditMode.dll/StateTests/[EditMode][StateTests.Test_ValueNonequivalencyTestUsingObjectEquals]
+      name: Test_ValueNonequivalencyTestUsingObjectEquals
+      fullName: StateTests.Test_ValueNonequivalencyTestUsingObjectEquals
+      resultStatus: 1
+      duration: 0.0015365
+      messages: 
+      output: 'isJumping
+
+        isNotJumping
+
+'
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1001
+      parentUniqueId: EditMode.dll/[EditMode][StateTests][suite]
+    - id: 1008
+      uniqueId: EditMode.dll/[EditMode][TimerStateTests][suite]
+      name: TimerStateTests
+      fullName: TimerStateTests
+      resultStatus: 1
+      duration: 0.0089712
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 1012
+      parentUniqueId: '[EditMode][C:/Users/Sulli/OneDrive/Desktop/Projects/Devlabs/Devlab_2DToolkits/Library/ScriptAssemblies/EditMode.dll][suite]'
+    - id: 1011
+      uniqueId: EditMode.dll/TimerStateTests/[EditMode][TimerStateTests.Test_TimerIsntTickingWhenOff]
+      name: Test_TimerIsntTickingWhenOff
+      fullName: TimerStateTests.Test_TimerIsntTickingWhenOff
+      resultStatus: 1
+      duration: 0.0009397
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1008
+      parentUniqueId: EditMode.dll/[EditMode][TimerStateTests][suite]
+    - id: 1009
+      uniqueId: EditMode.dll/TimerStateTests/[EditMode][TimerStateTests.TestDefaultTimerName]
+      name: TestDefaultTimerName
+      fullName: TimerStateTests.TestDefaultTimerName
+      resultStatus: 1
+      duration: 0.0003963
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1008
+      parentUniqueId: EditMode.dll/[EditMode][TimerStateTests][suite]
+    - id: 1010
+      uniqueId: EditMode.dll/TimerStateTests/[EditMode][TimerStateTests.TestSettingTimerName]
+      name: TestSettingTimerName
+      fullName: TimerStateTests.TestSettingTimerName
+      resultStatus: 1
+      duration: 0.000345
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1008
+      parentUniqueId: EditMode.dll/[EditMode][TimerStateTests][suite]
+    m_ResultText: StateTests (0.050s)
+    m_ResultStacktrace: 
+    m_TestListState:
+      scrollPos: {x: 0, y: 0}
+      m_SelectedIDs: 8784ec94
+      m_LastClickedID: -1796438905
+      m_ExpandedIDs: 4d5292b18590b2eaffffff7f
+      m_RenameOverlay:
+        m_UserAcceptedRename: 0
+        m_Name: 
+        m_OriginalName: 
+        m_EditFieldRect:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        m_UserData: 0
+        m_IsWaitingForDelay: 0
+        m_IsRenaming: 0
+        m_OriginalEventType: 11
+        m_IsRenamingFilename: 0
+        m_ClientGUIView: {fileID: 0}
+      m_SearchString: 
+    m_TestRunnerUIFilter:
+      PassedHidden: 0
+      FailedHidden: 0
+      NotRunHidden: 0
+      m_SearchString: 
+      selectedCategoryMask: 0
+      availableCategories:
+      - Uncategorized
+--- !u!114 &16
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -385,8 +920,8 @@ MonoBehaviour:
     m_SaveData: []
   m_LockTracker:
     m_IsLocked: 0
-  m_LastSelectedObjectID: 24086
---- !u!114 &16
+  m_LastSelectedObjectID: 24646
+--- !u!114 &17
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -406,10 +941,10 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 8
-    y: 81
-    width: 513
-    height: 566
+    x: 0
+    y: 73
+    width: 123
+    height: 625
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
     m_LastAppliedPresetName: Default
@@ -420,7 +955,7 @@ MonoBehaviour:
   m_ShowGizmos: 0
   m_TargetDisplay: 0
   m_ClearColor: {r: 0, g: 0, b: 0, a: 0}
-  m_TargetSize: {x: 513, y: 545}
+  m_TargetSize: {x: 123, y: 604}
   m_TextureFilterMode: 0
   m_TextureHideFlags: 61
   m_RenderIMGUI: 1
@@ -435,10 +970,10 @@ MonoBehaviour:
     m_VRangeLocked: 0
     hZoomLockedByDefault: 0
     vZoomLockedByDefault: 0
-    m_HBaseRangeMin: -256.5
-    m_HBaseRangeMax: 256.5
-    m_VBaseRangeMin: -272.5
-    m_VBaseRangeMax: 272.5
+    m_HBaseRangeMin: -61.5
+    m_HBaseRangeMax: 61.5
+    m_VBaseRangeMin: -302
+    m_VBaseRangeMax: 302
     m_HAllowExceedBaseRangeMin: 1
     m_HAllowExceedBaseRangeMax: 1
     m_VAllowExceedBaseRangeMin: 1
@@ -456,29 +991,29 @@ MonoBehaviour:
       serializedVersion: 2
       x: 0
       y: 21
-      width: 513
-      height: 545
+      width: 123
+      height: 604
     m_Scale: {x: 1, y: 1}
-    m_Translation: {x: 256.5, y: 272.5}
+    m_Translation: {x: 61.5, y: 302}
     m_MarginLeft: 0
     m_MarginRight: 0
     m_MarginTop: 0
     m_MarginBottom: 0
     m_LastShownAreaInsideMargins:
       serializedVersion: 2
-      x: -256.5
-      y: -272.5
-      width: 513
-      height: 545
+      x: -61.5
+      y: -302
+      width: 123
+      height: 604
     m_MinimalGUI: 1
   m_defaultScale: 1
-  m_LastWindowPixelSize: {x: 513, y: 566}
+  m_LastWindowPixelSize: {x: 123, y: 625}
   m_ClearInEditMode: 1
   m_NoCameraWarning: 1
   m_LowResolutionForAspectRatios: 01000000000000000000
   m_XRRenderMode: 0
   m_RenderTexture: {fileID: 0}
---- !u!114 &17
+--- !u!114 &18
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -498,10 +1033,10 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 522
-    y: 81
-    width: 713
-    height: 566
+    x: 124
+    y: 73
+    width: 1110
+    height: 625
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
     m_LastAppliedPresetName: Default
@@ -725,9 +1260,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: -0.11916662, y: 0.07999996, z: 0.004500015}
+    m_Target: {x: -0.049712885, y: 1.6427281, z: 0.0033269958}
     speed: 2
-    m_Value: {x: -0.11916662, y: 0.07999996, z: 0.004500015}
+    m_Value: {x: -0.049712885, y: 1.6427281, z: 0.0033269958}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -805,7 +1340,7 @@ MonoBehaviour:
   m_SceneVisActive: 1
   m_LastLockedObject: {fileID: 0}
   m_ViewIsLockedToObject: 0
---- !u!114 &18
+--- !u!114 &19
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -833,7 +1368,7 @@ MonoBehaviour:
   m_OverlayCanvas:
     m_LastAppliedPresetName: Default
     m_SaveData: []
---- !u!114 &19
+--- !u!114 &20
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -853,15 +1388,15 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 8
-    y: 668
-    width: 909
-    height: 323
+    x: 0
+    y: 719
+    width: 914
+    height: 280
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
     m_LastAppliedPresetName: Default
     m_SaveData: []
---- !u!114 &20
+--- !u!114 &21
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -881,10 +1416,10 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 918
-    y: 668
-    width: 317
-    height: 323
+    x: 915
+    y: 719
+    width: 319
+    height: 280
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
     m_LastAppliedPresetName: Default
@@ -901,8 +1436,7 @@ MonoBehaviour:
     m_ShowAllHits: 0
     m_SkipHidden: 0
     m_SearchArea: 1
-    m_Folders:
-    - Assets/Scripts/2DToolKit_Universal
+    m_Folders: []
     m_Globs: []
     m_OriginalText: 
   m_ViewMode: 0
@@ -916,7 +1450,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 38650000
     m_LastClickedID: 25912
-    m_ExpandedIDs: 00000000565e0000585e0000
+    m_ExpandedIDs: 00000000885e00008a5e00008c5e00008e5e0000905e0000925e0000945e0000965e0000985e00009a5e00009c5e0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -941,24 +1475,24 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
   m_AssetTreeState:
-    scrollPos: {x: 0, y: 0}
+    scrollPos: {x: 0, y: 6}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: ffffffff00000000565e0000
+    m_ExpandedIDs: ffffffff00000000885e00008a5e00008c5e00008e5e0000905e0000925e0000985e00009a5e00009c5e0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
-      m_Name: 
-      m_OriginalName: 
+      m_Name: EqualityTests
+      m_OriginalName: EqualityTests
       m_EditFieldRect:
         serializedVersion: 2
         x: 0
         y: 0
         width: 0
         height: 0
-      m_UserData: 0
+      m_UserData: 30506
       m_IsWaitingForDelay: 0
       m_IsRenaming: 0
-      m_OriginalEventType: 11
+      m_OriginalEventType: 0
       m_IsRenamingFilename: 1
       m_ClientGUIView: {fileID: 12}
     m_SearchString: 
@@ -1000,7 +1534,7 @@ MonoBehaviour:
     m_GridSize: 16
   m_SkipHiddenPackages: 0
   m_DirectoriesAreaWidth: 207
---- !u!114 &21
+--- !u!114 &22
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1020,10 +1554,10 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 1237
-    y: 81
-    width: 295
-    height: 910
+    x: 1236
+    y: 73
+    width: 272
+    height: 926
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
     m_LastAppliedPresetName: Default
@@ -1031,9 +1565,9 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 
+      m_SelectedIDs: 2a770000
       m_LastClickedID: 0
-      m_ExpandedIDs: 28fbffff
+      m_ExpandedIDs: 4cdcffff56deffff40e0ffff08e2ffff94f0fffff0f0ffff70f2ffffa0f3ffffeef3ffff4af5ffff46f6ffff94f6ffff8af7ffffd8f7ffff68f8ffff84f9ffff28fbffff
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -1049,7 +1583,7 @@ MonoBehaviour:
         m_IsRenaming: 0
         m_OriginalEventType: 11
         m_IsRenamingFilename: 0
-        m_ClientGUIView: {fileID: 13}
+        m_ClientGUIView: {fileID: 12}
       m_SearchString: 
     m_ExpandedScenes: []
     m_CurrenRootInstanceID: 0
@@ -1057,7 +1591,7 @@ MonoBehaviour:
       m_IsLocked: 0
     m_CurrentSortingName: TransformSorting
   m_WindowGUID: 4c969a2b90040154d917609493e03593
---- !u!114 &22
+--- !u!114 &23
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1077,10 +1611,10 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 1534
-    y: 81
-    width: 377
-    height: 910
+    x: 1510
+    y: 73
+    width: 409
+    height: 926
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
     m_LastAppliedPresetName: Default
@@ -1098,7 +1632,7 @@ MonoBehaviour:
   m_LockTracker:
     m_IsLocked: 0
   m_PreviewWindow: {fileID: 0}
---- !u!114 &23
+--- !u!114 &24
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1118,10 +1652,10 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 1526
+    x: 1537
     y: 73
-    width: 393
-    height: 926
+    width: 382
+    height: 552
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
     m_LastAppliedPresetName: Default
