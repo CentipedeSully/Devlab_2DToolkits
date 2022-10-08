@@ -4,7 +4,5 @@ using UnityEngine;
 
 public interface ISpawnable
 {
-    GameObject Spawn(SpawnPosition position);
-    void Despawn();
-    float GetSpawnChance();
+    GameObject Spawn(Transform position);
 }

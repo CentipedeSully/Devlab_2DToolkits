@@ -120,7 +120,7 @@ MonoBehaviour:
   m_MinSize: {x: 400, y: 200}
   m_MaxSize: {x: 32384, y: 16192}
   vertical: 0
-  controlID: 152
+  controlID: 112
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -145,7 +145,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 200}
   m_MaxSize: {x: 16192, y: 16192}
   vertical: 1
-  controlID: 56
+  controlID: 118
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -166,11 +166,11 @@ MonoBehaviour:
     x: 0
     y: 0
     width: 1236
-    height: 646
+    height: 474
   m_MinSize: {x: 200, y: 100}
   m_MaxSize: {x: 16192, y: 8096}
   vertical: 0
-  controlID: 57
+  controlID: 85
 --- !u!114 &8
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -188,8 +188,8 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 124
-    height: 646
+    width: 495
+    height: 474
   m_MinSize: {x: 201, y: 221}
   m_MaxSize: {x: 4001, y: 4021}
   m_ActualView: {fileID: 17}
@@ -207,23 +207,22 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: TestRunnerWindow
+  m_Name: SceneView
   m_EditorClassIdentifier: 
   m_Children: []
   m_Position:
     serializedVersion: 2
-    x: 124
+    x: 495
     y: 0
-    width: 1112
-    height: 646
-  m_MinSize: {x: 100, y: 100}
-  m_MaxSize: {x: 4000, y: 4000}
-  m_ActualView: {fileID: 15}
+    width: 741
+    height: 474
+  m_MinSize: {x: 202, y: 221}
+  m_MaxSize: {x: 4002, y: 4021}
+  m_ActualView: {fileID: 18}
   m_Panes:
   - {fileID: 18}
   - {fileID: 19}
-  - {fileID: 15}
-  m_Selected: 2
+  m_Selected: 0
   m_LastSelected: 0
 --- !u!114 &10
 MonoBehaviour:
@@ -243,13 +242,13 @@ MonoBehaviour:
   m_Position:
     serializedVersion: 2
     x: 0
-    y: 646
+    y: 474
     width: 1236
-    height: 301
+    height: 473
   m_MinSize: {x: 200, y: 100}
   m_MaxSize: {x: 16192, y: 8096}
   vertical: 0
-  controlID: 107
+  controlID: 119
 --- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -260,7 +259,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 1
   m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: ConsoleWindow
+  m_Name: TestRunnerWindow
   m_EditorClassIdentifier: 
   m_Children: []
   m_Position:
@@ -268,14 +267,15 @@ MonoBehaviour:
     x: 0
     y: 0
     width: 915
-    height: 301
+    height: 473
   m_MinSize: {x: 101, y: 121}
   m_MaxSize: {x: 4001, y: 4021}
-  m_ActualView: {fileID: 20}
+  m_ActualView: {fileID: 15}
   m_Panes:
   - {fileID: 16}
   - {fileID: 20}
-  m_Selected: 1
+  - {fileID: 15}
+  m_Selected: 2
   m_LastSelected: 1
 --- !u!114 &12
 MonoBehaviour:
@@ -295,7 +295,7 @@ MonoBehaviour:
     x: 915
     y: 0
     width: 321
-    height: 301
+    height: 473
   m_MinSize: {x: 232, y: 271}
   m_MaxSize: {x: 10002, y: 10021}
   m_ActualView: {fileID: 21}
@@ -348,8 +348,8 @@ MonoBehaviour:
     y: 0
     width: 410
     height: 947
-  m_MinSize: {x: 275, y: 50}
-  m_MaxSize: {x: 4000, y: 4000}
+  m_MinSize: {x: 276, y: 71}
+  m_MaxSize: {x: 4001, y: 4021}
   m_ActualView: {fileID: 23}
   m_Panes:
   - {fileID: 23}
@@ -376,31 +376,31 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 124
-    y: 73
-    width: 1110
-    height: 625
+    x: 0
+    y: 547
+    width: 914
+    height: 452
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
     m_LastAppliedPresetName: Default
     m_SaveData: []
   m_Spl:
-    ID: 175
-    splitterInitialOffset: 248
+    ID: 1166
+    splitterInitialOffset: 374
     currentActiveSplitter: -1
     realSizes:
-    - 251
-    - 304
+    - 307
+    - 75
     relativeSizes:
-    - 0.4522613
-    - 0.5477387
+    - 0.8036649
+    - 0.19633508
     minSizes:
     - 32
     - 32
     maxSizes:
     - 0
     - 0
-    lastTotalSize: 555
+    lastTotalSize: 382
     splitSize: 6
     xOffset: 0
     m_Version: 1
@@ -408,17 +408,516 @@ MonoBehaviour:
     oldMinSizes: 
     oldMaxSizes: 
     oldSplitSize: 0
-  m_TestTypeToolbarIndex: 1
+  m_TestTypeToolbarIndex: 0
   m_PlayModeTestListGUI:
-    m_Window: {fileID: 0}
-    m_NewResultList: []
-    m_ResultText: 
+    m_Window: {fileID: 15}
+    m_NewResultList:
+    - id: 1081
+      uniqueId: '[Devlab_2DScriptingToolkits][suite]'
+      name: Devlab_2DScriptingToolkits
+      fullName: Devlab_2DScriptingToolkits
+      resultStatus: 1
+      duration: 0.30883
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 
+      parentUniqueId: 
+    - id: 1103
+      uniqueId: '[PlayMode][C:/Users/Sulli/OneDrive/Desktop/Projects/Devlabs/Devlab_2DToolkits/Library/ScriptAssemblies/PlayMode.dll][suite]'
+      name: PlayMode.dll
+      fullName: C:/Users/Sulli/OneDrive/Desktop/Projects/Devlabs/Devlab_2DToolkits/Library/ScriptAssemblies/PlayMode.dll
+      resultStatus: 1
+      duration: 0.0802317
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 1081
+      parentUniqueId: '[Devlab_2DScriptingToolkits][suite]'
+    - id: 1082
+      uniqueId: PlayMode.dll/[PlayMode][StateMachineTestsOnPlay][suite]
+      name: StateMachineTestsOnPlay
+      fullName: StateMachineTestsOnPlay
+      resultStatus: 1
+      duration: 0.068283
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 1103
+      parentUniqueId: '[PlayMode][C:/Users/Sulli/OneDrive/Desktop/Projects/Devlabs/Devlab_2DToolkits/Library/ScriptAssemblies/PlayMode.dll][suite]'
+    - id: 1084
+      uniqueId: PlayMode.dll/StateMachineTestsOnPlay/[PlayMode][StateMachineTestsOnPlay.UsmAddStatesTest]
+      name: UsmAddStatesTest
+      fullName: StateMachineTestsOnPlay.UsmAddStatesTest
+      resultStatus: 1
+      duration: 0.0475927
+      messages: 
+      output: 'Testing Adding states: 3 entries expected...
+
+        [isJumping,
+        (isJumping:False)]
+
+        [isAlive, (isAlive:False)]
+
+        [isMoving,
+        (isMoving:False)]
+
+'
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1082
+      parentUniqueId: PlayMode.dll/[PlayMode][StateMachineTestsOnPlay][suite]
+    - id: 1004
+      uniqueId: PlayMode.dll/StateMachineTestsOnPlay/[PlayMode][StateMachineTestsOnPlay.UsmDoesStateExistTest]
+      name: UsmDoesStateExistTest
+      fullName: StateMachineTestsOnPlay.UsmDoesStateExistTest
+      resultStatus: 1
+      duration: 0.0423923
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1001
+      parentUniqueId: PlayMode.dll/[PlayMode][StateMachineTestsOnPlay][suite]
+    - id: 1090
+      uniqueId: PlayMode.dll/StateMachineTestsOnPlay/[PlayMode][StateMachineTestsOnPlay.UsmGetStateActivityTest]
+      name: UsmGetStateActivityTest
+      fullName: StateMachineTestsOnPlay.UsmGetStateActivityTest
+      resultStatus: 1
+      duration: 0.0209536
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1082
+      parentUniqueId: PlayMode.dll/[PlayMode][StateMachineTestsOnPlay][suite]
+    - id: 1094
+      uniqueId: PlayMode.dll/StateMachineTestsOnPlay/[PlayMode][StateMachineTestsOnPlay.UsmGettingListOfAllStateNamesTest]
+      name: UsmGettingListOfAllStateNamesTest
+      fullName: StateMachineTestsOnPlay.UsmGettingListOfAllStateNamesTest
+      resultStatus: 1
+      duration: 0.0399886
+      messages: 
+      output: 'Testing getting list of all names of states in state machine. 3 entries
+        expected...
+
+        System.Collections.Generic.List`1[System.String]
+
+'
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1082
+      parentUniqueId: PlayMode.dll/[PlayMode][StateMachineTestsOnPlay][suite]
+    - id: 1003
+      uniqueId: PlayMode.dll/StateMachineTestsOnPlay/[PlayMode][StateMachineTestsOnPlay.UsmNonexistingStateTest]
+      name: UsmNonexistingStateTest
+      fullName: StateMachineTestsOnPlay.UsmNonexistingStateTest
+      resultStatus: 1
+      duration: 0.0171038
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1001
+      parentUniqueId: PlayMode.dll/[PlayMode][StateMachineTestsOnPlay][suite]
+    - id: 1087
+      uniqueId: PlayMode.dll/StateMachineTestsOnPlay/[PlayMode][StateMachineTestsOnPlay.UsmRemoveStatesTest]
+      name: UsmRemoveStatesTest
+      fullName: StateMachineTestsOnPlay.UsmRemoveStatesTest
+      resultStatus: 1
+      duration: 0.0203838
+      messages: 
+      output: 'Testing Removing States: 2 entries expected...
+
+        [isJumping,
+        (isJumping:False)]
+
+        [isMoving, (isMoving:False)]
+
+'
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1082
+      parentUniqueId: PlayMode.dll/[PlayMode][StateMachineTestsOnPlay][suite]
+    - id: 1092
+      uniqueId: PlayMode.dll/StateMachineTestsOnPlay/[PlayMode][StateMachineTestsOnPlay.UsmSetStateActivityTest]
+      name: UsmSetStateActivityTest
+      fullName: StateMachineTestsOnPlay.UsmSetStateActivityTest
+      resultStatus: 1
+      duration: 0.0183515
+      messages: 
+      output: 'Testing Setting all states to true...
+
+        [isJumping, (isJumping:True)]
+
+        [isAlive,
+        (isAlive:True)]
+
+        [isMoving, (isMoving:True)]
+
+'
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1082
+      parentUniqueId: PlayMode.dll/[PlayMode][StateMachineTestsOnPlay][suite]
+    - id: 1083
+      uniqueId: PlayMode.dll/StateMachineTestsOnPlay/[PlayMode][StateMachineTestsOnPlay.UsmToStringTest]
+      name: UsmToStringTest
+      fullName: StateMachineTestsOnPlay.UsmToStringTest
+      resultStatus: 1
+      duration: 0.0174216
+      messages: 
+      output: 'System.Collections.Generic.Dictionary`2[System.String,State]
+
+'
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1082
+      parentUniqueId: PlayMode.dll/[PlayMode][StateMachineTestsOnPlay][suite]
+    - id: 1085
+      uniqueId: PlayMode.dll/StateMachineTestsOnPlay/[PlayMode][StateMachineTestsOnPlay.UsmTryAddingDuplicateStateTest]
+      name: UsmTryAddingDuplicateStateTest
+      fullName: StateMachineTestsOnPlay.UsmTryAddingDuplicateStateTest
+      resultStatus: 1
+      duration: 0.0171145
+      messages: 
+      output: 'Testing Adding Duplicate States: 1 entry expected...
+
+        [isMoving,
+        (isMoving:False)]
+
+'
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1082
+      parentUniqueId: PlayMode.dll/[PlayMode][StateMachineTestsOnPlay][suite]
+    - id: 1086
+      uniqueId: PlayMode.dll/StateMachineTestsOnPlay/[PlayMode][StateMachineTestsOnPlay.UsmTryAddingNullStateTest]
+      name: UsmTryAddingNullStateTest
+      fullName: StateMachineTestsOnPlay.UsmTryAddingNullStateTest
+      resultStatus: 1
+      duration: 0.0447307
+      messages: 
+      output: 'Testing Adding Null States: 0 entries expected...
+
+'
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1082
+      parentUniqueId: PlayMode.dll/[PlayMode][StateMachineTestsOnPlay][suite]
+    - id: 1091
+      uniqueId: PlayMode.dll/StateMachineTestsOnPlay/[PlayMode][StateMachineTestsOnPlay.UsmTryGettingNonexistentStateActivityTest]
+      name: UsmTryGettingNonexistentStateActivityTest
+      fullName: StateMachineTestsOnPlay.UsmTryGettingNonexistentStateActivityTest
+      resultStatus: 1
+      duration: 0.0238831
+      messages: 
+      output: 'Testing illegal request of nonexistent state named ''isStronk''...
+
+'
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1082
+      parentUniqueId: PlayMode.dll/[PlayMode][StateMachineTestsOnPlay][suite]
+    - id: 1088
+      uniqueId: PlayMode.dll/StateMachineTestsOnPlay/[PlayMode][StateMachineTestsOnPlay.UsmTryRemovingNonexistentStatesTest]
+      name: UsmTryRemovingNonexistentStatesTest
+      fullName: StateMachineTestsOnPlay.UsmTryRemovingNonexistentStatesTest
+      resultStatus: 1
+      duration: 0.0186355
+      messages: 
+      output: 'Testing Removing nonexistent States: 3 entries expected...
+
+        [isJumping,
+        (isJumping:False)]
+
+        [isAlive, (isAlive:False)]
+
+        [isMoving,
+        (isMoving:False)]
+
+'
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1082
+      parentUniqueId: PlayMode.dll/[PlayMode][StateMachineTestsOnPlay][suite]
+    - id: 1089
+      uniqueId: PlayMode.dll/StateMachineTestsOnPlay/[PlayMode][StateMachineTestsOnPlay.UsmTryRemovingNullStatesTest]
+      name: UsmTryRemovingNullStatesTest
+      fullName: StateMachineTestsOnPlay.UsmTryRemovingNullStatesTest
+      resultStatus: 1
+      duration: 0.0192548
+      messages: 
+      output: 'Testing Removing nonexistent States: 3 entries expected...
+
+        [isJumping,
+        (isJumping:False)]
+
+        [isAlive, (isAlive:False)]
+
+        [isMoving,
+        (isMoving:False)]
+
+'
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1082
+      parentUniqueId: PlayMode.dll/[PlayMode][StateMachineTestsOnPlay][suite]
+    - id: 1093
+      uniqueId: PlayMode.dll/StateMachineTestsOnPlay/[PlayMode][StateMachineTestsOnPlay.UsmTrySettingNonexistentStateActivityTest]
+      name: UsmTrySettingNonexistentStateActivityTest
+      fullName: StateMachineTestsOnPlay.UsmTrySettingNonexistentStateActivityTest
+      resultStatus: 1
+      duration: 0.0175533
+      messages: 
+      output: 'Testing illegal Setting of nonexistent state named ''isStronk''...
+
+'
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1082
+      parentUniqueId: PlayMode.dll/[PlayMode][StateMachineTestsOnPlay][suite]
+    - id: 1095
+      uniqueId: PlayMode.dll/[PlayMode][TimerStateTestsOnPlay][suite]
+      name: TimerStateTestsOnPlay
+      fullName: TimerStateTestsOnPlay
+      resultStatus: 2
+      duration: 14.237023
+      messages: One or more child tests had errors
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 1103
+      parentUniqueId: '[PlayMode][C:/Users/Sulli/OneDrive/Desktop/Projects/Devlabs/Devlab_2DToolkits/Library/ScriptAssemblies/PlayMode.dll][suite]'
+    - id: 1102
+      uniqueId: PlayMode.dll/TimerStateTestsOnPlay/[PlayMode][TimerStateTestsOnPlay.Test_TimerCompletionEvent]
+      name: Test_TimerCompletionEvent
+      fullName: TimerStateTestsOnPlay.Test_TimerCompletionEvent
+      resultStatus: 1
+      duration: 2.0147786
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1095
+      parentUniqueId: PlayMode.dll/[PlayMode][TimerStateTestsOnPlay][suite]
+    - id: 1101
+      uniqueId: PlayMode.dll/TimerStateTestsOnPlay/[PlayMode][TimerStateTestsOnPlay.Test_TimerDisplays1000msAfter1000msPasses]
+      name: Test_TimerDisplays1000msAfter1000msPasses
+      fullName: TimerStateTestsOnPlay.Test_TimerDisplays1000msAfter1000msPasses
+      resultStatus: 1
+      duration: 10.015034
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1095
+      parentUniqueId: PlayMode.dll/[PlayMode][TimerStateTestsOnPlay][suite]
+    - id: 1100
+      uniqueId: PlayMode.dll/TimerStateTestsOnPlay/[PlayMode][TimerStateTestsOnPlay.Test_TimerDisplays100msAfter100msPasses]
+      name: Test_TimerDisplays100msAfter100msPasses
+      fullName: TimerStateTestsOnPlay.Test_TimerDisplays100msAfter100msPasses
+      resultStatus: 1
+      duration: 1.0147647
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1095
+      parentUniqueId: PlayMode.dll/[PlayMode][TimerStateTestsOnPlay][suite]
+    - id: 1099
+      uniqueId: PlayMode.dll/TimerStateTestsOnPlay/[PlayMode][TimerStateTestsOnPlay.Test_TimerDisplays10msAfter10msPasses]
+      name: Test_TimerDisplays10msAfter10msPasses
+      fullName: TimerStateTestsOnPlay.Test_TimerDisplays10msAfter10msPasses
+      resultStatus: 2
+      duration: 0.1246777
+      messages: "  Expected: True\r\n  But was:  False\r\n"
+      output: 
+      stacktrace: 'at TimerStateTestsOnPlay+<Test_TimerDisplays10msAfter10msPasses>d__3.MoveNext
+        () [0x00070] in C:\Users\Sulli\OneDrive\Desktop\Projects\Devlabs\Devlab_2DToolkits\Assets\Tests\PlayMode\TimerStateTestsOnPlay.cs:64
+
+        at
+        UnityEngine.TestTools.TestEnumerator+<Execute>d__7.MoveNext () [0x0003a]
+        in C:\Users\Sulli\OneDrive\Desktop\Projects\Devlabs\Devlab_2DToolkits\Library\PackageCache\com.unity.test-framework@1.1.31\UnityEngine.TestRunner\NUnitExtensions\Attributes\TestEnumerator.cs:46
+
+'
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1095
+      parentUniqueId: PlayMode.dll/[PlayMode][TimerStateTestsOnPlay][suite]
+    - id: 1098
+      uniqueId: PlayMode.dll/TimerStateTestsOnPlay/[PlayMode][TimerStateTestsOnPlay.Test_TimerDisplays1msAfter1msPasses]
+      name: Test_TimerDisplays1msAfter1msPasses
+      fullName: TimerStateTestsOnPlay.Test_TimerDisplays1msAfter1msPasses
+      resultStatus: 2
+      duration: 0.0260112
+      messages: "  Expected: True\r\n  But was:  False\r\n"
+      output: 
+      stacktrace: 'at TimerStateTestsOnPlay+<Test_TimerDisplays1msAfter1msPasses>d__2.MoveNext
+        () [0x00070] in C:\Users\Sulli\OneDrive\Desktop\Projects\Devlabs\Devlab_2DToolkits\Assets\Tests\PlayMode\TimerStateTestsOnPlay.cs:49
+
+        at
+        UnityEngine.TestTools.TestEnumerator+<Execute>d__7.MoveNext () [0x0003a]
+        in C:\Users\Sulli\OneDrive\Desktop\Projects\Devlabs\Devlab_2DToolkits\Library\PackageCache\com.unity.test-framework@1.1.31\UnityEngine.TestRunner\NUnitExtensions\Attributes\TestEnumerator.cs:46
+
+'
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1095
+      parentUniqueId: PlayMode.dll/[PlayMode][TimerStateTestsOnPlay][suite]
+    - id: 1096
+      uniqueId: PlayMode.dll/TimerStateTestsOnPlay/[PlayMode][TimerStateTestsOnPlay.Test_TimerIsntTickingWhenHalted]
+      name: Test_TimerIsntTickingWhenHalted
+      fullName: TimerStateTestsOnPlay.Test_TimerIsntTickingWhenHalted
+      resultStatus: 1
+      duration: 0.5167802
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1095
+      parentUniqueId: PlayMode.dll/[PlayMode][TimerStateTestsOnPlay][suite]
+    - id: 1097
+      uniqueId: PlayMode.dll/TimerStateTestsOnPlay/[PlayMode][TimerStateTestsOnPlay.Test_TimerIsTickingWhenOn]
+      name: Test_TimerIsTickingWhenOn
+      fullName: TimerStateTestsOnPlay.Test_TimerIsTickingWhenOn
+      resultStatus: 1
+      duration: 0.5143398
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1095
+      parentUniqueId: PlayMode.dll/[PlayMode][TimerStateTestsOnPlay][suite]
+    m_ResultText: StateMachineTestsOnPlay (0.068s)
     m_ResultStacktrace: 
     m_TestListState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 
-      m_LastClickedID: 0
-      m_ExpandedIDs: 
+      m_SelectedIDs: 97d96474
+      m_LastClickedID: 1952766359
+      m_ExpandedIDs: 4d5292b1ffffff7f
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -442,7 +941,8 @@ MonoBehaviour:
       NotRunHidden: 0
       m_SearchString: 
       selectedCategoryMask: 0
-      availableCategories: []
+      availableCategories:
+      - Uncategorized
     m_SelectedOption: 0
   m_EditModeTestListGUI:
     m_Window: {fileID: 15}
@@ -452,7 +952,7 @@ MonoBehaviour:
       name: Devlab_2DScriptingToolkits
       fullName: Devlab_2DScriptingToolkits
       resultStatus: 1
-      duration: 0.1283673
+      duration: 0.0922785
       messages: 
       output: 
       stacktrace: 
@@ -468,7 +968,7 @@ MonoBehaviour:
       name: EditMode.dll
       fullName: C:/Users/Sulli/OneDrive/Desktop/Projects/Devlabs/Devlab_2DToolkits/Library/ScriptAssemblies/EditMode.dll
       resultStatus: 1
-      duration: 0.0372622
+      duration: 0.0536131
       messages: 
       output: 
       stacktrace: 
@@ -484,7 +984,7 @@ MonoBehaviour:
       name: EqualityTests
       fullName: EqualityTests
       resultStatus: 1
-      duration: 0.0355669
+      duration: 0.0323219
       messages: 
       output: 
       stacktrace: 
@@ -500,24 +1000,7 @@ MonoBehaviour:
       name: ReferenceEquailtyTestOnStates
       fullName: EqualityTests.ReferenceEquailtyTestOnStates
       resultStatus: 1
-      duration: 0.0169415
-      messages: 
-      output: 
-      stacktrace: 
-      notRunnable: 0
-      ignoredOrSkipped: 0
-      description: 
-      isSuite: 0
-      categories:
-      - Uncategorized
-      parentId: 1001
-      parentUniqueId: EditMode.dll/[EditMode][EqualityTests][suite]
-    - id: 1007
-      uniqueId: EditMode.dll/EqualityTests/[EditMode][EqualityTests.ReferenceNonequailtyTestOnStates]
-      name: ReferenceNonequailtyTestOnStates
-      fullName: EqualityTests.ReferenceNonequailtyTestOnStates
-      resultStatus: 1
-      duration: 0.0002266
+      duration: 0.0160702
       messages: 
       output: 
       stacktrace: 
@@ -534,7 +1017,7 @@ MonoBehaviour:
       name: ValueEquailtyTestOnInts
       fullName: EqualityTests.ValueEquailtyTestOnInts
       resultStatus: 1
-      duration: 0.0001455
+      duration: 0.0001875
       messages: 
       output: 
       stacktrace: 
@@ -551,7 +1034,24 @@ MonoBehaviour:
       name: ValueEquailtyTestOnStrings
       fullName: EqualityTests.ValueEquailtyTestOnStrings
       resultStatus: 1
-      duration: 0.0001533
+      duration: 0.0001497
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1001
+      parentUniqueId: EditMode.dll/[EditMode][EqualityTests][suite]
+    - id: 1007
+      uniqueId: EditMode.dll/EqualityTests/[EditMode][EqualityTests.ValueEqualityOverloadTestOnStates]
+      name: ValueEqualityOverloadTestOnStates
+      fullName: EqualityTests.ValueEqualityOverloadTestOnStates
+      resultStatus: 1
+      duration: 0.0002144
       messages: 
       output: 
       stacktrace: 
@@ -568,7 +1068,7 @@ MonoBehaviour:
       name: ValueNonequailtyTestOnInts
       fullName: EqualityTests.ValueNonequailtyTestOnInts
       resultStatus: 1
-      duration: 0.0001495
+      duration: 0.0001253
       messages: 
       output: 
       stacktrace: 
@@ -585,7 +1085,7 @@ MonoBehaviour:
       name: ValueNonequailtyTestOnStrings
       fullName: EqualityTests.ValueNonequailtyTestOnStrings
       resultStatus: 1
-      duration: 0.000209
+      duration: 0.0001325
       messages: 
       output: 
       stacktrace: 
@@ -602,7 +1102,7 @@ MonoBehaviour:
       name: StateTests
       fullName: StateTests
       resultStatus: 1
-      duration: 0.0504943
+      duration: 0.0104268
       messages: 
       output: 
       stacktrace: 
@@ -618,7 +1118,7 @@ MonoBehaviour:
       name: Test_EnablingState
       fullName: StateTests.Test_EnablingState
       resultStatus: 1
-      duration: 0.0197656
+      duration: 0.0002629
       messages: 
       output: 
       stacktrace: 
@@ -635,7 +1135,7 @@ MonoBehaviour:
       name: Test_HashEquivalencyTest
       fullName: StateTests.Test_HashEquivalencyTest
       resultStatus: 1
-      duration: 0.0003923
+      duration: 0.000214
       messages: 
       output: 
       stacktrace: 
@@ -652,7 +1152,7 @@ MonoBehaviour:
       name: Test_HashNonequivalencyTest
       fullName: StateTests.Test_HashNonequivalencyTest
       resultStatus: 1
-      duration: 0.0002344
+      duration: 0.0001855
       messages: 
       output: 
       stacktrace: 
@@ -669,7 +1169,7 @@ MonoBehaviour:
       name: Test_NullEquivalencyTest
       fullName: StateTests.Test_NullEquivalencyTest
       resultStatus: 1
-      duration: 0.0002016
+      duration: 0.0001637
       messages: 
       output: 
       stacktrace: 
@@ -686,7 +1186,7 @@ MonoBehaviour:
       name: Test_NullNonequivalencyTest
       fullName: StateTests.Test_NullNonequivalencyTest
       resultStatus: 1
-      duration: 0.0002468
+      duration: 0.0003395
       messages: 
       output: 
       stacktrace: 
@@ -703,7 +1203,7 @@ MonoBehaviour:
       name: Test_StringHashToStateHashNonequivalencyTest
       fullName: StateTests.Test_StringHashToStateHashNonequivalencyTest
       resultStatus: 1
-      duration: 0.0002016
+      duration: 0.0002749
       messages: 
       output: 
       stacktrace: 
@@ -720,7 +1220,7 @@ MonoBehaviour:
       name: Test_ValueEquivalencyTestUsingDoubleEquals
       fullName: StateTests.Test_ValueEquivalencyTestUsingDoubleEquals
       resultStatus: 1
-      duration: 0.0002253
+      duration: 0.0003085
       messages: 
       output: 
       stacktrace: 
@@ -737,7 +1237,7 @@ MonoBehaviour:
       name: Test_ValueEquivalencyTestUsingObjEquals
       fullName: StateTests.Test_ValueEquivalencyTestUsingObjEquals
       resultStatus: 1
-      duration: 0.0002203
+      duration: 0.0001798
       messages: 
       output: 
       stacktrace: 
@@ -754,13 +1254,9 @@ MonoBehaviour:
       name: Test_ValueNonequivalencyTestUsingDoubleEquals
       fullName: StateTests.Test_ValueNonequivalencyTestUsingDoubleEquals
       resultStatus: 1
-      duration: 0.0043618
+      duration: 0.0001519
       messages: 
-      output: 'isJumping
-
-        isNotJumping
-
-'
+      output: 
       stacktrace: 
       notRunnable: 0
       ignoredOrSkipped: 0
@@ -775,13 +1271,9 @@ MonoBehaviour:
       name: Test_ValueNonequivalencyTestUsingObjectEquals
       fullName: StateTests.Test_ValueNonequivalencyTestUsingObjectEquals
       resultStatus: 1
-      duration: 0.0015365
+      duration: 0.0001609
       messages: 
-      output: 'isJumping
-
-        isNotJumping
-
-'
+      output: 
       stacktrace: 
       notRunnable: 0
       ignoredOrSkipped: 0
@@ -796,7 +1288,7 @@ MonoBehaviour:
       name: TimerStateTests
       fullName: TimerStateTests
       resultStatus: 1
-      duration: 0.0089712
+      duration: 0.0087658
       messages: 
       output: 
       stacktrace: 
@@ -812,7 +1304,7 @@ MonoBehaviour:
       name: Test_TimerIsntTickingWhenOff
       fullName: TimerStateTests.Test_TimerIsntTickingWhenOff
       resultStatus: 1
-      duration: 0.0009397
+      duration: 0.0012065
       messages: 
       output: 
       stacktrace: 
@@ -829,7 +1321,7 @@ MonoBehaviour:
       name: TestDefaultTimerName
       fullName: TimerStateTests.TestDefaultTimerName
       resultStatus: 1
-      duration: 0.0003963
+      duration: 0.0002682
       messages: 
       output: 
       stacktrace: 
@@ -846,7 +1338,7 @@ MonoBehaviour:
       name: TestSettingTimerName
       fullName: TimerStateTests.TestSettingTimerName
       resultStatus: 1
-      duration: 0.000345
+      duration: 0.0002436
       messages: 
       output: 
       stacktrace: 
@@ -858,13 +1350,18 @@ MonoBehaviour:
       - Uncategorized
       parentId: 1008
       parentUniqueId: EditMode.dll/[EditMode][TimerStateTests][suite]
-    m_ResultText: StateTests (0.050s)
-    m_ResultStacktrace: 
+    m_ResultText: "ReferenceNonequailtyTestOnStates (0.000s)\n---\nExpected: False\r\n 
+      But was:  True\n---\nat EqualityTests.ReferenceNonequailtyTestOnStates () [0x00016]
+      in C:\\Users\\Sulli\\OneDrive\\Desktop\\Projects\\Devlabs\\Devlab_2DToolkits\\Assets\\Tests\\EditMode\\EqualityTests.cs:55"
+    m_ResultStacktrace: 'at EqualityTests.ReferenceNonequailtyTestOnStates () [0x00016]
+      in C:\Users\Sulli\OneDrive\Desktop\Projects\Devlabs\Devlab_2DToolkits\Assets\Tests\EditMode\EqualityTests.cs:55
+
+'
     m_TestListState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 8784ec94
-      m_LastClickedID: -1796438905
-      m_ExpandedIDs: 4d5292b18590b2eaffffff7f
+      m_SelectedIDs: 1f786eb9
+      m_LastClickedID: -1183942625
+      m_ExpandedIDs: 4d5292b144379131c2b44f7affffff7f
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -943,8 +1440,8 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 73
-    width: 123
-    height: 625
+    width: 494
+    height: 453
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
     m_LastAppliedPresetName: Default
@@ -955,7 +1452,7 @@ MonoBehaviour:
   m_ShowGizmos: 0
   m_TargetDisplay: 0
   m_ClearColor: {r: 0, g: 0, b: 0, a: 0}
-  m_TargetSize: {x: 123, y: 604}
+  m_TargetSize: {x: 494, y: 432}
   m_TextureFilterMode: 0
   m_TextureHideFlags: 61
   m_RenderIMGUI: 1
@@ -970,10 +1467,10 @@ MonoBehaviour:
     m_VRangeLocked: 0
     hZoomLockedByDefault: 0
     vZoomLockedByDefault: 0
-    m_HBaseRangeMin: -61.5
-    m_HBaseRangeMax: 61.5
-    m_VBaseRangeMin: -302
-    m_VBaseRangeMax: 302
+    m_HBaseRangeMin: -247
+    m_HBaseRangeMax: 247
+    m_VBaseRangeMin: -216
+    m_VBaseRangeMax: 216
     m_HAllowExceedBaseRangeMin: 1
     m_HAllowExceedBaseRangeMax: 1
     m_VAllowExceedBaseRangeMin: 1
@@ -991,23 +1488,23 @@ MonoBehaviour:
       serializedVersion: 2
       x: 0
       y: 21
-      width: 123
-      height: 604
+      width: 494
+      height: 432
     m_Scale: {x: 1, y: 1}
-    m_Translation: {x: 61.5, y: 302}
+    m_Translation: {x: 247, y: 216}
     m_MarginLeft: 0
     m_MarginRight: 0
     m_MarginTop: 0
     m_MarginBottom: 0
     m_LastShownAreaInsideMargins:
       serializedVersion: 2
-      x: -61.5
-      y: -302
-      width: 123
-      height: 604
+      x: -247
+      y: -216
+      width: 494
+      height: 432
     m_MinimalGUI: 1
   m_defaultScale: 1
-  m_LastWindowPixelSize: {x: 123, y: 625}
+  m_LastWindowPixelSize: {x: 494, y: 453}
   m_ClearInEditMode: 1
   m_NoCameraWarning: 1
   m_LowResolutionForAspectRatios: 01000000000000000000
@@ -1033,10 +1530,10 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 124
+    x: 495
     y: 73
-    width: 1110
-    height: 625
+    width: 739
+    height: 453
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
     m_LastAppliedPresetName: Default
@@ -1389,9 +1886,9 @@ MonoBehaviour:
   m_Pos:
     serializedVersion: 2
     x: 0
-    y: 719
+    y: 547
     width: 914
-    height: 280
+    height: 452
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
     m_LastAppliedPresetName: Default
@@ -1417,9 +1914,9 @@ MonoBehaviour:
   m_Pos:
     serializedVersion: 2
     x: 915
-    y: 719
+    y: 547
     width: 319
-    height: 280
+    height: 452
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
     m_LastAppliedPresetName: Default
@@ -1450,7 +1947,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 38650000
     m_LastClickedID: 25912
-    m_ExpandedIDs: 00000000885e00008a5e00008c5e00008e5e0000905e0000925e0000945e0000965e0000985e00009a5e00009c5e0000
+    m_ExpandedIDs: 000000008a5e00008c5e00008e5e0000905e0000925e0000945e0000965e0000985e00009a5e0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -1475,21 +1972,21 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
   m_AssetTreeState:
-    scrollPos: {x: 0, y: 6}
+    scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: ffffffff00000000885e00008a5e00008c5e00008e5e0000905e0000925e0000985e00009a5e00009c5e0000
+    m_ExpandedIDs: ffffffff000000008a5e00008c5e00008e5e0000905e0000925e0000965e00009a5e0000ce5e0000d65e0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
-      m_Name: EqualityTests
-      m_OriginalName: EqualityTests
+      m_Name: StateMachineTestsOnPlay
+      m_OriginalName: StateMachineTestsOnPlay
       m_EditFieldRect:
         serializedVersion: 2
         x: 0
         y: 0
         width: 0
         height: 0
-      m_UserData: 30506
+      m_UserData: 24592
       m_IsWaitingForDelay: 0
       m_IsRenaming: 0
       m_OriginalEventType: 0
@@ -1565,9 +2062,9 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 2a770000
+      m_SelectedIDs: 
       m_LastClickedID: 0
-      m_ExpandedIDs: 4cdcffff56deffff40e0ffff08e2ffff94f0fffff0f0ffff70f2ffffa0f3ffffeef3ffff4af5ffff46f6ffff94f6ffff8af7ffffd8f7ffff68f8ffff84f9ffff28fbffff
+      m_ExpandedIDs: 9cadffffe8adffff96b0ffff6ab2ffffb6b2ffff44b5ffff18b7ffff64b7ffffb0baffffeabdffff36beffff74c1ffffc0c1ffff0cc2ffff6ec4ffff10c6ffff5cc6ffffcec8ffff82caffffcecaffffd6cdffff6ccfffffb8cfffff12d2ffff90d3ffffdcd3fffffad5ffff4ed7ffff9ad7ffffc8d9ffff18daffff64daffff8cdcfffffeddffff4adeffff50e0ffffcae2ffff16e3ffffd2e5ffff1ae6ffff66e6ffff7ce9ffff3eeaffffc2ebffff86ecffff20efffffa2f0ffff70f3ffff10f5ffff36f6ffffbcf6ffffdef8ffff28fbffff
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 

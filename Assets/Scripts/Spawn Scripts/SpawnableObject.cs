@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class SpawnableObject : MonoBehaviour, ISpawnable
+public class SpawnableObject : MonoBehaviour
 {
     [Header("Object Spawn Utilities")]
     [Tooltip("Keep this value to the nearest Hundreth (0.xx). Also beware that the sum of all spawnable objects' spawn chances must equal 1 ")]
