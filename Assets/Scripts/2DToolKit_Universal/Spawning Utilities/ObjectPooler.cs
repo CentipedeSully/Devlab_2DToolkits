@@ -11,6 +11,11 @@ public class ObjectPooler : MonoSingleton<ObjectPooler>
     private static GameObject _objectPoolerGameObject;
 
 
+    protected override void InitializeAdditionalFields()
+    {
+        _objectPoolerGameObject = gameObject;
+        _pooledObjects = new List<GameObject>();
+    }
 
 
     public static void PoolObject(GameObject existingObject)
@@ -25,26 +30,45 @@ public class ObjectPooler : MonoSingleton<ObjectPooler>
 
     private static void ParentPoolerToGameObject(GameObject pooledObject)
     {
-        pooledObject.transform.SetParent(_objectPoolerGameObject.transform);
+        ParentObjectToNewTransform(pooledObject, _objectPoolerGameObject.transform);
 
         pooledObject.transform.position = _objectPoolerGameObject.transform.position;
     }
 
 
+    public static void ParentObjectToNewTransform(GameObject childObject, Transform parentTransform)
+    {
+        childObject.transform.SetParent(parentTransform);
+    }
 
-    public static GameObject GetPooledGameObject(GameObject requestedPrefab)
+    public static GameObject TakePooledGameObject(GameObject requestedPrefab)
     {
         if (DoesObjectExistInPool(requestedPrefab) == false)
             AddPopulationToPool(requestedPrefab, _defaultPopulationValue);
 
+        GameObject recycledGameObject = null;
         foreach (GameObject pooledObject in _pooledObjects)
         {
             if (requestedPrefab.tag == pooledObject.tag)
-                return pooledObject;
+            {
+                recycledGameObject = pooledObject;
+                _pooledObjects.Remove(pooledObject);
+                break;
+            }
         }
 
-        Debug.LogError("Failed to return requested object from ObjectPooler: (" + requestedPrefab.name + "). Failed To Populate Pooler with requested object prfab.");
-        return null;
+        if (recycledGameObject != null)
+        {
+            recycledGameObject.SetActive(true);
+            return recycledGameObject;
+        }
+
+        else
+        {
+            Debug.LogError("Failed to return requested object from ObjectPooler: (" + requestedPrefab.name + "). Failed To Populate Pooler with requested object prfab.");
+            return null;
+        }
+
     }
 
     public static bool DoesObjectExistInPool(GameObject objectInQuestion)

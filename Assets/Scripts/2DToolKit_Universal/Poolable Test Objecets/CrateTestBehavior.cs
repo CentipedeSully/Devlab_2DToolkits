@@ -10,11 +10,15 @@ public class CrateTestBehavior : MonoBehaviour
 
 
 
-    private void Start()
+    private void OnEnable()
     {
         TakeRandomDamage();
     }
 
+    private void OnDisable()
+    {
+        ResetCrateBehavior();
+    }
 
 
     public void TakeRandomDamage()

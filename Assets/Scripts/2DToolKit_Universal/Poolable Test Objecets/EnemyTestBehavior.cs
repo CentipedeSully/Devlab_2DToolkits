@@ -9,11 +9,15 @@ public class EnemyTestBehavior : MonoBehaviour
     public bool _isAlive = false;
 
 
-    private void Start()
+    private void OnEnable()
     {
         BecomeAlive();
     }
 
+    private void OnDisable()
+    {
+        ResetBehavior();
+    }
 
     public void BecomeAlive()
     {
