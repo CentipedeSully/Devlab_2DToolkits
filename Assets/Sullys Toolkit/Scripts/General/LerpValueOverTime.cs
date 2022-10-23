@@ -7,7 +7,7 @@ using UnityEngine.Events;
 namespace SullysToolkit
 {
 
-    public class Lerper : MonoBehaviour
+    public class LerpValueOverTime : MonoBehaviour
     {
         [Tooltip("Name it for organizational purposes, in case there are multiple lerpers on a single gameObject")]
         [SerializeField] private string _LerperName;
